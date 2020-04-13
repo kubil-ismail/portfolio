@@ -1,0 +1,39 @@
+/* 
+    ---------------------------------
+    NAVBAR
+    ---------------------------------
+*/
+.nav-item .active {
+    color: white !important;
+    background-color: #4D89BF !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2D314B;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+/* 
+    ---------------------------------
+    BANNER
+    ---------------------------------
+*/
+.banner {
+    margin-top: 10%;
+}
+
+.banner-title {
+    margin-top: 20%;
+}
+
+.banner-img {
+    width: 90%;
+}

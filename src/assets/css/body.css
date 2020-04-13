@@ -1,0 +1,142 @@
+section {
+    margin-top: 15%;
+}
+
+@media only screen and (max-width: 719px) {
+    section {
+        margin-top: 25%;
+    }
+    .banner {
+        padding: 30% 0px 40% 0px;
+    }
+}
+
+
+.rounded {
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.card {
+    margin: 20px 0px;
+}
+
+/* 
+    ---------------------------------
+    ABOUT
+    ---------------------------------
+*/
+
+.img-about {
+    width: 90%;
+}
+
+@media only screen and (max-width: 959px) {
+    .img-about {
+        width: 100% !important;
+    }
+}
+
+.about-title {
+    margin-top: 10%;
+}
+
+
+/* 
+    ---------------------------------
+    SKILLS
+    ---------------------------------
+*/
+.skills .card {
+    padding: 40px 0px !important;
+    box-shadow: 2px 2px 5px grey;
+    border: none !important;
+    border-radius: 20px;
+}
+
+.icon {
+    width: 120px !important;
+}
+
+.icon ,.card-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.skill-title {
+    margin-top: 5%;
+}
+
+
+/* 
+    ---------------------------------
+    PROJECT
+    ---------------------------------
+*/
+#list-tab {
+    margin-left: 11%;
+}
+
+.list-group-item.active {
+    background-color: #4D89BF;
+}
+
+.list-group-horizontal-sm .list-group-item.active {
+    margin-top: auto;
+}
+
+.list-group-item {
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 50px !important;
+    padding: 10px 0px;
+}
+
+.list-group-item-action {
+    width: 20% !important;
+}
+
+@media only screen and (max-width: 720px) {
+    #list-tab {
+        margin-left: -5%;
+    }
+    .list-group-item {
+        margin: 10px;
+        border: 1px solid rgba(0,0,0,.125) !important;
+        border-radius: 50px !important;
+        padding: 10px 0px;
+    }
+
+    .list-group-item-action {
+        width: 100% !important;
+    }
+}
+
+#project .card {
+    box-shadow: 2px 2px 5px grey;
+    border: none !important;
+    border-radius: 20px;
+}
+
+
+#project .card img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+/* 
+    ---------------------------------
+    AWARDS
+    ---------------------------------
+*/
+#awards .card {
+    box-shadow: 2px 2px 5px grey;
+    border: none !important;
+    border-radius: 20px;
+}
+
+
+#awards .card img {
+    border-radius: 20px 20px 0px 0px;
+}
