@@ -1,3 +1,8 @@
+/* 
+    -------------------------------
+    GLOBAL BODY
+    -------------------------------
+*/
 section {
     margin-top: 15%;
 }
@@ -10,7 +15,6 @@ section {
         padding: 30% 0px 40% 0px;
     }
 }
-
 
 .rounded {
     border-radius: 20px !important;
@@ -26,7 +30,6 @@ section {
     ABOUT
     ---------------------------------
 */
-
 .img-about {
     width: 90%;
 }
